@@ -33,12 +33,13 @@ h2 {
 .background-buildings,
 .foreground-buildings {
   width: 100%;
-  height: calc(100vh - 20%);
+  height: 100vh;
+  min-height: 100vh;
   display: flex;
   align-items: flex-end;
   justify-content: space-evenly;
   position: absolute;
-  top: 20%;
+  top: 0;
 }
 
 .building-wrap {
